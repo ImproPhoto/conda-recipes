@@ -1,0 +1,27 @@
+{% set version = "v1.0.beta11" %}
+
+package:
+  name: micmac
+  version: {{ version }}
+
+source:
+  fn: micmac-{{ version }}.tar.gz
+  url: https://github.com/micmacIGN/micmac/releases/download/{{ version }}/micmac_linux.tgz
+  sha256: 2413e2532159c1dba6f5b98d755b47f6d44dd85d2a76d1561e8f0e0639ede922
+  patches:
+
+build:
+  number: 1
+
+requirements:
+  build:
+  run:
+
+test:
+    imports:
+    commands:
+
+about:
+  home: https://github.com/micmacIGN/micmac
+  license: CeCILL-B
+  summary: Free open-source photogrammetry software tool
