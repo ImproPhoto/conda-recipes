@@ -1,1 +1,1 @@
-conda build  . --channel=conda-forge
+conda build  . --channel=conda-forge --channel=improphoto
