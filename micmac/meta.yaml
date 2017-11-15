@@ -6,8 +6,8 @@ package:
 
 source:
   fn: micmac-{{ version }}.tar.gz
-  url: https://github.com/micmacIGN/micmac/releases/download/{{ version }}/micmac_linux.tgz
-  sha256: 2413e2532159c1dba6f5b98d755b47f6d44dd85d2a76d1561e8f0e0639ede922
+  url: https://github.com/micmacIGN/micmac/archive/{{ version }}.tar.gz
+  sha256: 77f4ffaeb92829f972d7c24820b469c4505e4bf048c23a0a8a1feadd686745b1
   patches:
 
 build:
@@ -15,7 +15,16 @@ build:
 
 requirements:
   build:
+    - cmake
+    - openmp 4.0.0
+    - xorg-libx11
+    - perl 5.22.2.1
   run:
+    - openmp 4.0.0
+    - xorg-libx11
+    - imagemagick
+    - proj4
+    - perl 5.22.2.1
 
 test:
     imports:
