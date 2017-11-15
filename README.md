@@ -1,4 +1,7 @@
-# Note on MicMac feautures
+# About
+These are MicMac and PyMicMac anaconda recipies only for 64-bit Linux system.
+
+## Note on MicMac features
 The anaconda package does not include these features:
  - Qt
  - X11
