@@ -1,14 +1,10 @@
-{% set version = "v1.0.beta11" %}
+{% set version = "8db9f6f" %}
 
 package:
   name: micmac
   version: {{ version }}
 
 source:
-  # fn: micmac-{{ version }}.tar.gz
-  # url: https://github.com/micmacIGN/micmac/archive/{{ version }}.tar.gz
-  # sha256: 77f4ffaeb92829f972d7c24820b469c4505e4bf048c23a0a8a1feadd686745b1
-  # patches:
   git_url: https://github.com/micmacIGN/micmac.git
   git_rev: 8db9f6f4229326fc47766466db505eda13a0d1da
 
