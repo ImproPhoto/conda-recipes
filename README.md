@@ -15,7 +15,7 @@ Applications with graphical user interface will not work (SaisieAppuisQT).
 
 # Installation using Anaconda
 ```{r, engine='bash', count_lines}
-conda install -c improphoto micmac 
+conda install -c improphoto pymicmac 
 ```
 
 # Build
