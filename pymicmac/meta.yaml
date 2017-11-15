@@ -1,0 +1,26 @@
+package:
+  name: pymicmac
+  version: 1.0.1
+
+source: 
+  git_url: https://github.com/ImproPhoto/pymicmac.git
+  git_rev: master 
+
+requirements:
+  build:
+    - python 
+    - micmac
+
+  run:
+    - python
+    - micmac
+
+test:
+  imports:
+    - pymicmac
+
+about:
+  home: https://github.com/ImproPhoto/pymicmac
+  license: Apache 2
+  summary: Python tools for the MicMac FOSS photogrammetric suite
+
