@@ -1,5 +1,5 @@
 # About
-These are MicMac and PyMicMac anaconda recipies only for 64-bit Linux system.
+These are MicMac and PyMicMac anaconda recipies only for 64-bit Linux system. See https://anaconda.org/ImproPhoto for the packages.
 
 ## MicMac version
 Anaconda build is using a specific version of MicMac:
