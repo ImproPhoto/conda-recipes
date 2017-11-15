@@ -20,6 +20,11 @@ conda install -c improphoto pymicmac
 
 # Build
 ```{r, engine='bash', count_lines}
+cd micmac
+conda build  .
+conda build  . --output # get filename here
+anaconda upload -u conda-forge -u improphoto *FILE*
+cd ../pymicmac
 conda build  .
 conda build  . --output # get filename here
 anaconda upload -u conda-forge -u improphoto *FILE*
