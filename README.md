@@ -13,9 +13,9 @@ The anaconda package does not include these features:
 
 Applications with graphical user interface will not work (SaisieAppuisQT).
 
-# Installation using Anaconda
+# Installation using Anaconda (Python 3.6)
 ```{r, engine='bash', count_lines}
-conda install -c improphoto pymicmac 
+conda install -c improphoto -c conda-forge pymicmac 
 ```
 
 # Build
